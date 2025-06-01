@@ -21,8 +21,8 @@ Nele, usuários podem se cadastrar, o sistema identifica automaticamente se est�
 - Preenchimento automático de latitude e longitude (simulado).
 
 ✅ Definição automática do tipo de usuário:
-- Se está em área de risco ➜ `morador`.
-- Se está fora ➜ `motorista`.
+- Se está em área de risco ➜ `Dentro da área de risco`.
+- Se está fora ➜ `Fora da área de risco`.
 
 ✅ CRUD completo:
 - Cadastro, listagem, busca, atualização e exclusão de usuários.
@@ -48,7 +48,7 @@ Nele, usuários podem se cadastrar, o sistema identifica automaticamente se est�
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/AlertaSeguro.git
+git clone https://github.com/FlyingHigh520741/AlertaSeguro.git
 
 # Entre na pasta
 cd AlertaSeguro
@@ -60,7 +60,7 @@ javac -d bin src/**/*.java
 java -cp bin menu.MenuPrincipal
 ✅ O sistema vai rodar no terminal / console.
 
----
+```
 
 ### ✏️ Organização do projeto
 
